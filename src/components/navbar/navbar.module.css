@@ -1,5 +1,5 @@
 .navbar {
-  padding: 1.5rem;
+  padding: 24px;
   background-color: #f6f6f6;
 }
 
@@ -13,4 +13,19 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+.heading span {
+  font-size: 24px;
+}
+
+@media (max-width: 520px) {
+  .navbar {
+    padding: 16px;
+  }
+  .heading {
+    justify-content: flex-end;
+  }
+  .heading span {
+    font-size: 16px;
+  }
 }

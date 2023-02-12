@@ -42,7 +42,7 @@
 }
 
 .tableContainer {
-  max-width: 50rem;
+  max-width: 40rem;
   max-height: 33rem;
   overflow: auto;
 }
@@ -61,4 +61,20 @@
 
 .tableRow {
   border: 1px solid;
+}
+
+@media (max-width: 896px) {
+  .buttonGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  .button {
+    margin-bottom: 10px;
+  }
+  .tableViewContainer {
+    width: 100%;
+  }
+  .tableContainer {
+    width: 100%;
+  }
 }

@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div className={`${styles.navbar}`}>
       <div className={`${styles.navbarContent}`}>
-        <img src={logo} width="180" alt="CloudSEK" />
+        <img src={logo} width="120" alt="CloudSEK" />
         <div className={`${styles.heading}`}>
-          <h2>House Recommendation</h2>
+          <span>House Recommendation</span>
         </div>
       </div>
     </div>

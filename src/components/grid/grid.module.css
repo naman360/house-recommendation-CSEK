@@ -57,3 +57,21 @@
 .answerText {
   font-weight: bold;
 }
+
+@media (max-width: 1120px) {
+  .gridContainer {
+    width: 100%;
+  }
+  .answerBox {
+    width: 340px;
+  }
+}
+@media (max-width: 456px) {
+  .inputContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inputLabel {
+    margin-bottom: 8px;
+  }
+}
