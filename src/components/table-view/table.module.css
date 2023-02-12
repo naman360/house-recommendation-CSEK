@@ -1,0 +1,64 @@
+.tableViewContainer {
+  padding: 20px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tableData {
+  border: 1px solid #1b262c;
+  padding: 10px;
+  margin: 0;
+  min-width: 5rem;
+}
+.inputBox {
+  background-color: white;
+  width: 100%;
+  border: 1px solid black;
+}
+.buttonGroup {
+  margin-bottom: 20px;
+}
+
+.button {
+  outline: none;
+  border: 1px solid black;
+  padding: 8px 24px;
+  background: white;
+  color: black;
+  transition: all 0.5s ease;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+.button:disabled,
+.button[disabled] {
+  background-color: #e3e3e3;
+  color: #b3b3b3;
+}
+.button:not([disabled]):hover {
+  background: black;
+  color: white;
+}
+
+.tableContainer {
+  max-width: 50rem;
+  max-height: 33rem;
+  overflow: auto;
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.tableData {
+  background-color: #fff4f4;
+}
+
+.tableData[data-value="house"] {
+  background-color: #ffcaca;
+}
+
+.tableRow {
+  border: 1px solid;
+}

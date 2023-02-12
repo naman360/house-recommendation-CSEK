@@ -1,0 +1,13 @@
+.viewContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 1120px) {
+  .viewContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
